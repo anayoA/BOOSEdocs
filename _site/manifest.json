@@ -1,0 +1,234 @@
+{
+  "source_base_path": "C:/Users/marka/source/repos/ase-boose-assignment-anayoA/AnayoBOOSEapp/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCanvas.yml\" sourcestartlinenumber=\"1\">Provides an implementation of the <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> interface for drawing shapes and text.\nThis class manages all drawing operations using a <xref href=\"System.Drawing.Graphics\" data-throw-if-not-resolved=\"false\"></xref> object backed by a bitmap surface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCircle.yml\" sourcestartlinenumber=\"1\">This class rewrites the Circle command for the BOOSE application.\nIt extends the <xref href=\"BOOSE.CommandOneParameter\" data-throw-if-not-resolved=\"false\"></xref> class to handle drawing circles\ncentred at the current cursor position with a specified radius.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class for creating application-specific BOOSE commands.\nInherits from <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref> and overrides the <xref href=\"BOOSEapp.AppCommandFactory.MakeCommand(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method\nto return application-specific implementations of commands such as Circle, Rectangle, and MoveTo.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppMoveTo.yml\" sourcestartlinenumber=\"1\">This class rewrites the MoveTo command for the BOOSE application.\nIt extends the <xref href=\"BOOSE.CommandTwoParameters\" data-throw-if-not-resolved=\"false\"></xref> class to handle moving the\ncursor position to the specified x and y coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppRectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppRectangle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppRectangle",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppRectangle.yml\" sourcestartlinenumber=\"1\">This class rewrites the Rectangle command for the BOOSE application.\nIt extends the <xref href=\"BOOSE.CommandOneParameter\" data-throw-if-not-resolved=\"false\"></xref> class to handle drawing rectangles\nat the current cursor position with a specified width and height.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.Form.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.Form.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.Form",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.Form.yml\" sourcestartlinenumber=\"1\">Represents the main form of the BOOSE application, handling the UI, connecting the canvas,\nparser, and command factory, and managing program execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.AppCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.AppCanvasTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnitTests.AppCanvasTests",
+      "Summary": "<p sourcefile=\"api/UnitTests.AppCanvasTests.yml\" sourcestartlinenumber=\"1\">Test class for AppCanvas methods, ensuring pen position is correct after various commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnitTests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/boose.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/boose.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/boose.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/boose.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
